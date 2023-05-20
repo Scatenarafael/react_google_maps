@@ -35,3 +35,7 @@
   width: 80%;
   margin: 20px;
 }
+
+.marker {
+  height: 20px !important;
+}

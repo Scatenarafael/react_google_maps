@@ -34,7 +34,7 @@ export default function Places({ setOffice }: PlacesProps) {
     const results = await getGeocode({ address: val });
     const { lat, lng } = await getLatLng(results[0]);
 
-    setOffice({ lat, lng, altitude: 0 });
+    setOffice({ lat, lng });
   };
 
   return (
